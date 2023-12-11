@@ -1,0 +1,43 @@
+#baseURL = "https://blefebvr.42.fr/me"
+title = "Barbara LEFEBVRE"
+theme = "m10c"
+primaryColor = "#D8BFD8"
+textColor = "#4B0082"
+linkColor = "#F08080"
+paginate = 8
+canonifyURLs = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[params]
+  author = "Barbara Lefebvre"
+  description = "Student @42Paris && former Broadcast Manager"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/Barby971"
+   [[params.social]]
+    icon = "linkedin"
+    name = "Linkedin"
+    url = "https://fr.linkedin.com/in/barbara-lefebvre-0307803b"
+  [params.style]
+    darkestColor = "#2F4F4F"
+    darkColor  = "#5F9EA0"
+    primaryColor = "#D8BFD8"
+    textColor = "#808080"
+    linkColor = "#F08080"
+
+
+  lightColor = "#f5e3e0"
+  lightestColor = "#f5f5f5"
